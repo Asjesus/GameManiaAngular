@@ -1,0 +1,352 @@
+
+
+ 
+.geral{
+    width: 1320px;
+    height: 400px;
+}
+
+.banner-geral{
+        height: 1900px;
+        background: linear-gradient(89.84deg, #0A64CE 0.17%, #010101 98.9%);
+        padding-top: 10px;
+    
+    
+        }
+
+
+.banner-1{
+   background-image: url(/assets/img/banner.png);
+   width: 1320px;
+   height: 400px;
+   background-repeat: no-repeat;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+}
+
+
+.banner-2 {
+  background-image: url(/assets/img/background\ 2.png);
+    width: 1320px;
+    height: 400px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner-3 {
+   background-image: url(/assets/img/background\ 3.png);
+    width: 1320px;
+    height: 400px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.game-mania{
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    text-shadow: 1px 1px 1px black, -1px 1px 1px black, 1px -1px 1px black, -1px -1px 1px black;
+    
+  
+}
+
+.melhores-marcas{
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    position:relative;
+    text-shadow: 1px 1px 1px black, -1px 1px 1px black, 1px -1px 1px black, -1px -1px 1px black;
+}
+
+#carrossel{ 
+    width: 100%;
+    height: 100%;
+   
+}
+
+.carousel-inner {
+    padding-top: 10px; 
+    height: 445px;
+    width: 1320px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.cacarousel-inner img {
+    height: 445px;
+    width: 1320px;
+}
+
+.produtos{
+  
+    display: flex;
+    width: 1320px;
+    justify-content: space-between;
+    height: 450px;
+    padding-top: 0.5vw;
+  
+
+}
+
+.produtos-2{
+     display: flex;
+    justify-content: space-between;
+    height: 450px;
+    width: 1320px;
+    padding-top: 0.5vw;
+    
+}
+
+.produtos img{
+
+    width: 350px;
+    height: 430px;
+}
+
+.produtos-2 img{
+    width: 350px;
+    height: 430px;
+}
+
+
+
+
+.produtos-2 p {
+    font-family: 'Inter' sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    color: #000000;
+    transform: rotate(-29.11deg);
+    position: absolute;
+    padding-left: 30px;
+    
+}
+
+.ofertas{
+    background-color: #FF0202;
+    width: 645.17px;
+    height: 81.89px;
+    display: flex;
+    justify-content:center;
+
+}
+
+.ofertas p {
+   font-family: 'Inter' sans-serif;
+   font-weight: 900;
+   font-size: 50px;
+   text-align: center;
+   color: #FFFFFF;
+   text-transform: uppercase;
+   position: absolute;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1200px){
+ 
+
+   .produtos img {
+    height: 30vw;
+    width: 20vw;
+   }
+   .produtos{
+       height: 40vw;
+   }
+   .produtos-2{
+    height: 40vw;
+   }
+   .produtos-2 img {
+    height: 30vw;
+    width: 20vw;
+   }
+   
+    .ofertas{
+        display: none;
+    }
+
+    .produtos-2 p {
+        display: none;  
+    }
+
+ 
+    .produtos-geral{
+        padding: none;
+    }
+
+ 
+    .carousel-inner {
+        height: 50vw;
+        width: 85vw;
+      
+    }
+
+    .carousel-inner{
+        height: 30vw;
+    }
+
+
+    .banner-1{
+        height: 30vw;
+        width: 83vw;
+    }
+    .banner-2{
+        height: 30vw;
+        width: 83vw;
+    }
+    .banner-3{
+        height: 30vw;
+        width: 83vw;
+    }
+  .banner-geral{
+    height: 1700px;
+  }
+  
+}
+
+
+@media screen and (max-width: 1000px){
+
+   
+
+        #carrossel{ 
+            width: 100%;
+            height: 90%;
+           
+        }
+    .banner-geral{
+        height: 1462px;
+    }
+    
+  
+   
+}
+
+@media screen and (max-width: 800px){
+
+ 
+
+        #carrossel{ 
+            width: 100%;
+            height: 90%;
+           
+        }
+    .banner-geral{
+        height: 1200px;
+    }
+    
+   
+    .geral{
+        height: 300px;
+    }
+
+    
+}
+
+@media screen and (max-width: 656px){
+
+
+
+
+        #carrossel{ 
+            width: 100%;
+            height: 100%;
+           
+        }
+    .banner-geral{
+        height: 850px;
+    }
+    
+  
+    .geral{
+        height: 120px;
+    }
+
+   
+
+    .container-grid {
+        width: 100vw;
+    
+    }
+
+     
+     
+
+    }@media screen and (max-width: 550px){
+
+
+    
+            #carrossel{ 
+                width: 100%;
+                height: 100%;
+               
+            }
+        .banner-geral{
+            height: 700px;
+        }
+        
+    
+        .geral{
+            height: 120px;
+        }
+    
+      
+    
+        .container-grid {
+            width: 100vw;
+        
+        }
+    
+    
+         
+
+}
+
+@media screen and (max-width: 449px){
+
+
+
+        #carrossel{ 
+            width: 100%;
+            height: 100%;
+           
+        }
+    .banner-geral{
+        height: 600px;
+    }
+    
+   
+    .geral{
+        height: 120px;
+    }
+
+
+    .container-grid {
+        width: 100vw;
+    
+    }
+
+   
+
+}

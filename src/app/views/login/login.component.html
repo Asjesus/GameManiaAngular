@@ -1,0 +1,18 @@
+
+<main>
+    <form (ngSubmit)="receberDados()">
+    <div class="campo-label">
+        <label for="emial">Email</label>
+        <input type="emial" name=" email" id="email" placeholder="Ex.: email@email.com" [(ngModel)]="userModel.email">
+    </div>
+       
+    <div class="campo-label">
+        <label for="senha">Senha</label>
+        <input type="password" name="password" id="senha" placeholder="Sua senha aqui" [(ngModel)]="userModel.password">
+    </div>
+
+
+    <input type="botao-enviar" type="submit" value="Fazer Login">
+   
+    </form>
+   </main>

@@ -1,0 +1,35 @@
+   
+   <header>
+  <div class=" container cabecalho-geral">
+    <div class=" container cabecalho-1">
+        <img class="logo" src="/assets/img/GAME MANIA  Logotipo 1.svg" alt="Logotipo da aplicação Game Mania">
+    </div>
+
+    <div class="cabecalho-2"> 
+        <p class="entre">Entre ou cadastre-se</p>
+        <a routerLink="/login"> <img class="login" src="/assets/img/login.svg" alt="Ícone de login"></a>
+
+    </div>
+
+    <div class="pesquisa">    
+        <form class="imput" action="" method="post">
+            <input id="campo-buscarProduto" class="imput" type="text" name="index" id="index" placeholder = "    buscar produto" required> 
+            <button  onclick="cadastrarNewsletter()" class="imput-button" type="submit"><fa-icon [icon]="iconebotao"></fa-icon></button>
+        </form>
+    </div>
+
+    <a onclick="mostrarMenu()" href="#" id="barras"> <img class="barras" src="/assets/img/bars-solid (1).svg" alt="Ícone do menu de barras"></a> 
+
+</div>
+</header>
+<section class="menu">
+    <nav id="menu"  class=" container  menu-links">
+        <a href="#">Console</a>
+        <a href="#">Pc Gamer</a>
+        <a href="#">Celulares</a>
+        <a href="#">Notebooks</a>
+        <a href="#">jogos</a>
+        <a href="#">Ofertas</a>
+   </nav>
+
+</section>

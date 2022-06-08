@@ -1,0 +1,145 @@
+
+footer{
+    background-color: #010101;
+    height: 10vw;   
+ }
+
+ .footer{
+     display: flex;
+     justify-content:space-between;
+     align-items: center;
+     height: 10vw;
+ }
+
+ .contatos{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    font-size: 1vw;
+    height: 5vw;
+    width: 20vw;
+    line-height: 0.5;
+      }
+
+.localizacao{
+
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    width: 13vw;
+    line-height: 1.5;
+    font-size: 1vw;
+    
+}
+.siga{
+    color: white;
+     text-transform: uppercase;
+     font-family: 'Inter', sans-serif;
+     width: 10vw;
+     height: 5vw;
+     font-size: 1vw;
+}
+
+.redes img{
+   
+    align-items: center;
+    width: 8vw;
+    padding: 2vw;
+}
+
+
+
+@media screen and (max-width: 1200px){
+    .contatos{
+        display: none;
+    }
+    .localizacao{
+        display: none;
+    }
+    .siga{
+        display: none;
+    }
+    .siga p{
+      display: none;
+    }
+    .siga img {
+     size: 1vw;
+    
+     width: 40vw;
+    }
+   .redes{
+       width: 100vw;
+       display: flex;
+       justify-content: space-around;
+       height: 10vw;
+   }
+   .siga img {
+    height: 3vw;
+    width: 3vw;
+}
+}
+@media screen and (max-width: 1000px){
+    .siga img {
+        height: 3vw;
+        width: 3vw;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .siga img {
+        height: 35px;
+        width: 35px;
+    }
+}
+@media screen and (max-width: 656px){
+    .footer{
+
+        width: 90%;
+        height: 100px;
+        display: flex;
+        justify-content:space-between;
+      }
+      .container-grid {
+        width: 100vw;}
+        .footer img {
+            height: 70px;
+            width: 70px;
+            
+        }
+    }
+@media screen and (max-width: 550px){
+    .footer img {
+        height: 70px;
+        width: 70px;
+        
+    }
+
+    .footer{
+    
+        width: 90%;
+        height: 100px;
+        display: flex;
+        justify-content:space-between;
+      }
+}
+
+@media screen and (max-width: 449px){
+    .footer img {
+        height: 70px;
+        width: 70px;
+        
+    }
+    .container-grid {
+        width: 100vw;
+    
+    }
+
+      .footer{
+        width: 90%;
+        height: 100px;
+        display: flex;
+        justify-content:space-between;
+      }
+     
+
+}
