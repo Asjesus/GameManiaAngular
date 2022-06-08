@@ -2,6 +2,9 @@
 header {
     background-color: #2D0DF1;
     height: 6vw;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
 }
 
 
@@ -16,9 +19,7 @@ header {
     display: flex;
     justify-content:flex-start;
     align-items: center;
-    
-    
-   }
+}
 
 .cabecalho-2{
     display: flex;
@@ -38,7 +39,7 @@ header {
  }  
 
  .entre{
-    font-family: 'Black Han Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 18px;
     text-decoration: none;
     color: white;
@@ -98,7 +99,6 @@ header {
 
     .barras{
         height: 50px
-        
     }
     
     #barras{
