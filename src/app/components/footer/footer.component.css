@@ -1,7 +1,9 @@
 
+
+
 footer{
     background-color: #010101;
-    height: 10vw;   
+    height: 9vw; 
  }
 
  .footer{
@@ -9,6 +11,7 @@ footer{
      justify-content:space-between;
      align-items: center;
      height: 10vw;
+
  }
 
  .contatos{
@@ -62,11 +65,7 @@ footer{
     .siga p{
       display: none;
     }
-    .siga img {
-     size: 1vw;
-    
-     width: 40vw;
-    }
+
    .redes{
        width: 100vw;
        display: flex;
@@ -74,72 +73,7 @@ footer{
        height: 10vw;
    }
    .siga img {
-    height: 3vw;
-    width: 3vw;
+    height: 10vw;
+    width: 10vw;
 }
-}
-@media screen and (max-width: 1000px){
-    .siga img {
-        height: 3vw;
-        width: 3vw;
-    }
-}
-
-@media screen and (max-width: 800px){
-    .siga img {
-        height: 35px;
-        width: 35px;
-    }
-}
-@media screen and (max-width: 656px){
-    .footer{
-
-        width: 90%;
-        height: 100px;
-        display: flex;
-        justify-content:space-between;
-      }
-      .container-grid {
-        width: 100vw;}
-        .footer img {
-            height: 70px;
-            width: 70px;
-            
-        }
-    }
-@media screen and (max-width: 550px){
-    .footer img {
-        height: 70px;
-        width: 70px;
-        
-    }
-
-    .footer{
-    
-        width: 90%;
-        height: 100px;
-        display: flex;
-        justify-content:space-between;
-      }
-}
-
-@media screen and (max-width: 449px){
-    .footer img {
-        height: 70px;
-        width: 70px;
-        
-    }
-    .container-grid {
-        width: 100vw;
-    
-    }
-
-      .footer{
-        width: 90%;
-        height: 100px;
-        display: flex;
-        justify-content:space-between;
-      }
-     
-
 }

@@ -1,19 +1,33 @@
 
-
+/*background: linear-gradient(89.84deg, #0A64CE 0.17%, #010101 98.9%);*/
  
-.geral{
-    width: 1320px;
-    height: 400px;
-}
-
-.banner-geral{
-        height: 1900px;
-        background: linear-gradient(89.84deg, #0A64CE 0.17%, #010101 98.9%);
-        padding-top: 10px;
-    
-    
+body{
+        padding-bottom: 1vw;
+        background-image: url(/assets/img/fundo\ 2.jpg);
+        padding-top: 0.5vw;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; 
+      
         }
 
+
+     
+
+  #carrossel{ 
+            width: 88vw;
+            height: 30w;
+           
+}
+
+
+ .geral{
+            display: flex;
+            justify-content: center;
+            height: 21vw;
+            
+ }
+ 
 
 .banner-1{
    background-image: url(/assets/img/banner.png);
@@ -49,8 +63,9 @@
     align-items: center;
 }
 
+
 .game-mania{
-    font-size: 40px;
+    font-size: 4vw;
     color: white;
     text-transform: uppercase;
     font-weight: 900;
@@ -64,7 +79,7 @@
 }
 
 .melhores-marcas{
-    font-size: 40px;
+    font-size: 3vw;
     color: white;
     text-transform: uppercase;
     font-weight: 900;
@@ -76,18 +91,13 @@
     text-shadow: 1px 1px 1px black, -1px 1px 1px black, 1px -1px 1px black, -1px -1px 1px black;
 }
 
-#carrossel{ 
-    width: 100%;
-    height: 100%;
-   
-}
 
 .carousel-inner {
-    padding-top: 10px; 
-    height: 445px;
-    width: 1320px;
-    padding-left: 10px;
-    padding-bottom: 10px;
+   padding-top: 1vw;
+   padding-bottom: 1vw;
+    width: 83vw;
+    height: 27vw;
+    
 }
 
 .cacarousel-inner img {
@@ -95,258 +105,186 @@
     width: 1320px;
 }
 
+
 .produtos{
-  
     display: flex;
-    width: 1320px;
+    height: 25vw;
     justify-content: space-between;
-    height: 450px;
-    padding-top: 0.5vw;
-  
+    padding-top: 1vw;
+   
 
 }
 
 .produtos-2{
      display: flex;
-    justify-content: space-between;
-    height: 450px;
-    width: 1320px;
-    padding-top: 0.5vw;
-    
+    justify-content:space-between;
+    height: 25vw;
+   
+
 }
 
-.produtos img{
+.zomm{
+    overflow: hidden;
+}
 
-    width: 350px;
-    height: 430px;
+.zomm img {
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+
+}
+
+.zomm:hover img {
+    -moz-transition: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+.produtos img{
+    
+    width: 15vw;
+    height: 23vw;
 }
 
 .produtos-2 img{
-    width: 350px;
-    height: 430px;
-}
-
-
-
-
-.produtos-2 p {
-    font-family: 'Inter' sans-serif;
-    font-weight: 900;
-    font-size: 50px;
-    color: #000000;
-    transform: rotate(-29.11deg);
-    position: absolute;
-    padding-left: 30px;
-    
+    width: 15vw;
+    height: 23vw;
+    padding-top: 1vw;
 }
 
 .ofertas{
     background-color: #FF0202;
-    width: 645.17px;
-    height: 81.89px;
+    width: 40vw;
+    height: 4vw;
     display: flex;
     justify-content:center;
+    align-items: center;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
 
 }
 
 .ofertas p {
    font-family: 'Inter' sans-serif;
    font-weight: 900;
-   font-size: 50px;
-   text-align: center;
+   font-size: 2vw;
    color: #FFFFFF;
    text-transform: uppercase;
    position: absolute;
 }
 
 
+@media screen and (max-width:1300px) {
+    .container{
+        width: 90vw;
+    }
+}
 
+@media screen and (max-width: 1800px){
 
+    .geral{
+        display: flex;
+        justify-content: center;
+        height: 29vw;
+}
+.produtos img{
+    
+    width: 17vw;
+    height: 23vw;
+}
+
+.produtos-2 img{
+    width: 17vw;
+    height: 23vw;
+    padding-top: 1vw;
+}
+
+.carousel-inner {
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+     width: 90vw;
+     height: 30vw;
+     
+ }
+}
 
 
 @media screen and (max-width: 1200px){
- 
 
-   .produtos img {
-    height: 30vw;
-    width: 20vw;
-   }
-   .produtos{
-       height: 40vw;
-   }
-   .produtos-2{
-    height: 40vw;
-   }
-   .produtos-2 img {
-    height: 30vw;
-    width: 20vw;
-   }
-   
+    .geral{
+        display: flex;
+        justify-content: center;
+        height: 29vw;
+}
+
+ 
+    #barras{
+       display: inline-block;
+    }
+
+    .game-mania{
+        font-size: 2vw;
+
+    }
+    .melhores-marcas {
+        font-size: 2vw;
+    }
+    
+    .cabecalho-2{
+        display: none;
+    }
+    .pesquisa{
+        display: none;
+    }
+
+
+    .menu-links {
+        display: none;
+    }
+
     .ofertas{
         display: none;
     }
 
-    .produtos-2 p {
-        display: none;  
-    }
-
- 
-    .produtos-geral{
-        padding: none;
-    }
-
- 
-    .carousel-inner {
-        height: 50vw;
-        width: 85vw;
-      
-    }
-
-    .carousel-inner{
-        height: 30vw;
-    }
-
-
-    .banner-1{
-        height: 30vw;
-        width: 83vw;
-    }
-    .banner-2{
-        height: 30vw;
-        width: 83vw;
-    }
-    .banner-3{
-        height: 30vw;
-        width: 83vw;
-    }
-  .banner-geral{
-    height: 1700px;
-  }
-  
-}
-
-
-@media screen and (max-width: 1000px){
-
-   
-
-        #carrossel{ 
-            width: 100%;
-            height: 90%;
-           
-        }
-    .banner-geral{
-        height: 1462px;
-    }
-    
-  
-   
-}
-
-@media screen and (max-width: 800px){
-
- 
-
-        #carrossel{ 
-            width: 100%;
-            height: 90%;
-           
-        }
-    .banner-geral{
-        height: 1200px;
-    }
-    
-   
-    .geral{
-        height: 300px;
-    }
-
-    
-}
-
-@media screen and (max-width: 656px){
-
-
-
-
-        #carrossel{ 
-            width: 100%;
-            height: 100%;
-           
-        }
-    .banner-geral{
-        height: 850px;
-    }
-    
-  
-    .geral{
-        height: 120px;
-    }
-
-   
-
-    .container-grid {
-        width: 100vw;
-    
-    }
-
-     
-     
-
-    }@media screen and (max-width: 550px){
-
-
-    
-            #carrossel{ 
-                width: 100%;
-                height: 100%;
-               
-            }
-        .banner-geral{
-            height: 700px;
-        }
+    .menu-links{
+        display: none;
+        height: 5vw;
+        width: 10vw;
+        position: absolute;
+        top: 0px;
+        left: 15vw;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-shadow: 1px 1px 1px black, -1px 1px 1px black, 1px -1px 1px black, -1px -1px 1px black;
+        background-color: #2D0DF1;
         
-    
-        .geral{
-            height: 120px;
-        }
-    
-      
-    
-        .container-grid {
-            width: 100vw;
-        
-        }
-    
-    
-         
+    }
+
+    .contatos{
+        display: none;
+    }
+    .localizacao{
+        display: none;
+    }
+    .siga{
+        display: none;
+    }
+    .siga p{
+      display: none;
+    }
+    .siga img {
+     size: 3vw;
+    }
+   
+  
+  #carrossel{ 
+    width: 90vw;
+    height: 29vw;
+   
+}
 
 }
 
-@media screen and (max-width: 449px){
-
-
-
-        #carrossel{ 
-            width: 100%;
-            height: 100%;
-           
-        }
-    .banner-geral{
-        height: 600px;
-    }
-    
-   
-    .geral{
-        height: 120px;
-    }
-
-
-    .container-grid {
-        width: 100vw;
-    
-    }
-
-   
-
-}
