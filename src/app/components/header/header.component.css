@@ -144,10 +144,10 @@ width: 20vw;
     .menu-links{
         display: none;
         height: 20vw;
-        width: 15vw;
+        width: 20vw;
         position: absolute;
         top: 0px;
-        left: 80vw;
+        left: 75vw;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
