@@ -26,7 +26,7 @@ mensagem=""
     console.log("Deu certo")
     localStorage.setItem("nomeUsuario", Response.body.user.nome)
 
-    //this.router.navigateByUrl("/")
+    this.router.navigateByUrl("/")
 
   }, (respostaErro) =>{
     console.log ("Deu erro")
